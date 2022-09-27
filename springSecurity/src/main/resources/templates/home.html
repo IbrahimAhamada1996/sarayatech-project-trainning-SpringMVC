@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+   <link rel="stylesheet" type="text/css" th:href="@{/bootstrap-4.0.0-dist/css/bootstrap.css}" >
+</head>
+<body>
+
+        <h3 class="text-center">Add person</h3>
+        <hr>
+    <div class="container">
+        <form action="/add" method="post">
+            <div class="row">
+                <div class="col-4">
+                    <label>Firstname</label>
+                    <input type="text" class="form-control" required name="firstname">
+                </div>
+                <div class="col-4">
+                    <label>Lastname</label>
+                    <input type="text" class="form-control" required name="lastname">
+                </div>
+
+            </div>
+            <div class="row mt-2">
+                <div class="col-8 text-center">
+                    <button type="submit" class="btn btn-primary">add</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <hr>
+        <h3 class="text-center">list person</h3>
+    <hr>
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th scope="col">#ID</th>
+            <th scope="col">Firstname</th>
+            <th scope="col">Lastname</th>
+            <th scope="col">Actions</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="person: ${persones}">
+            <th scope="row" th:text="${person.id}">1</th>
+            <td th:text="${person.firstname}">Mark</td>
+            <td th:text="${person.lastname}">Otto</td>
+            <td>
+                <a th:href="@{/delete/{id} (id=${person.id})}"><button class="btn btn-danger">Delete</button></a>
+                <a th:href="@{/update/{id} (id=${person.id})}"><button class="btn btn-info">Update</button></a>
+            </td>
+        </tr>
+
+        </tbody>
+    </table>
+</body>
+</html>

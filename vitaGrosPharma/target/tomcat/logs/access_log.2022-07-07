@@ -1,0 +1,11 @@
+0:0:0:0:0:0:0:1 - - [07/Jul/2022:17:16:37 +0000] "GET / HTTP/1.1" 200 1641 http-bio-8080-exec-2 520
+0:0:0:0:0:0:0:1 - - [07/Jul/2022:17:16:38 +0000] "GET /bootstrap-4.0.0-dist/css/bootstrap.css HTTP/1.1" 404 949 http-bio-8080-exec-3 37
+0:0:0:0:0:0:0:1 - - [07/Jul/2022:17:16:38 +0000] "GET /bootstrap-4.0.0-dist/js/bootstrap.bundle.js HTTP/1.1" 404 949 http-bio-8080-exec-4 21
+0:0:0:0:0:0:0:1 - - [07/Jul/2022:17:17:53 +0000] "GET /favicon.ico HTTP/1.1" 404 949 http-bio-8080-exec-6 25
+127.0.0.1 - - [07/Jul/2022:21:40:04 +0000] "GET / HTTP/1.1" 500 7270 http-bio-8080-exec-2 4683
+127.0.0.1 - - [07/Jul/2022:21:40:16 +0000] "GET /favicon.ico HTTP/1.1" 500 7270 http-bio-8080-exec-3 1799
+127.0.0.1 - - [07/Jul/2022:22:01:55 +0000] "GET /owners/list HTTP/1.1" 500 7270 http-bio-8080-exec-6 18106
+127.0.0.1 - - [07/Jul/2022:22:02:15 +0000] "GET /favicon.ico HTTP/1.1" 500 7270 http-bio-8080-exec-7 1409
+127.0.0.1 - - [07/Jul/2022:23:31:03 +0000] "GET /favicon.ico HTTP/1.1" 500 7270 http-bio-8080-exec-3 1650
+127.0.0.1 - - [07/Jul/2022:23:31:07 +0000] "GET /owners/list HTTP/1.1" 500 7270 http-bio-8080-exec-5 660
+127.0.0.1 - - [07/Jul/2022:23:31:09 +0000] "GET /favicon.ico HTTP/1.1" 500 7270 http-bio-8080-exec-4 633

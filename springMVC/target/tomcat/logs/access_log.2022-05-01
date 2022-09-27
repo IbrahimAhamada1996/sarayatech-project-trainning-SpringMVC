@@ -1,0 +1,13 @@
+0:0:0:0:0:0:0:1 - - [01/May/2022:23:26:03 +0000] "GET /springmvc HTTP/1.1" 302 - http-bio-8080-exec-2 0
+0:0:0:0:0:0:0:1 - - [01/May/2022:23:26:06 +0000] "GET /springmvc/ HTTP/1.1" 404 949 http-bio-8080-exec-3 344
+0:0:0:0:0:0:0:1 - - [01/May/2022:23:26:17 +0000] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-5 0
+0:0:0:0:0:0:0:1 - - [01/May/2022:23:26:50 +0000] "GET /home HTTP/1.1" 404 - http-bio-8080-exec-8 0
+0:0:0:0:0:0:0:1 - - [01/May/2022:23:29:05 +0000] "GET /home HTTP/1.1" 404 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [01/May/2022:23:29:28 +0000] "GET /springmvc/home HTTP/1.1" 200 83 http-bio-8080-exec-4 10543
+0:0:0:0:0:0:0:1 - - [01/May/2022:23:31:31 +0000] "GET /springmvc/home HTTP/1.1" 200 100 http-bio-8080-exec-8 757
+0:0:0:0:0:0:0:1 - - [01/May/2022:23:33:17 +0000] "GET /springmvc/home HTTP/1.1" 200 101 http-bio-8080-exec-9 1655
+0:0:0:0:0:0:0:1 - - [01/May/2022:23:34:18 +0000] "GET /springmvc/home HTTP/1.1" 500 8489 http-bio-8080-exec-3 19422
+0:0:0:0:0:0:0:1 - - [01/May/2022:23:34:40 +0000] "GET /springmvc/home HTTP/1.1" 200 92 http-bio-8080-exec-5 1477
+0:0:0:0:0:0:0:1 - - [01/May/2022:23:34:52 +0000] "GET /springmvc/home HTTP/1.1" 200 103 http-bio-8080-exec-8 859
+0:0:0:0:0:0:0:1 - - [01/May/2022:23:35:18 +0000] "GET /springmvc/home HTTP/1.1" 200 92 http-bio-8080-exec-9 3929
+0:0:0:0:0:0:0:1 - - [01/May/2022:23:37:16 +0000] "GET /springmvc/home HTTP/1.1" 200 92 http-bio-8080-exec-7 169

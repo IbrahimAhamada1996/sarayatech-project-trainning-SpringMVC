@@ -1,0 +1,8 @@
+0:0:0:0:0:0:0:1 - - [12/May/2022:11:12:19 +0000] "GET / HTTP/1.1" 404 949 http-bio-8080-exec-1 3344
+0:0:0:0:0:0:0:1 - - [12/May/2022:11:12:23 +0000] "GET /favicon.ico HTTP/1.1" 404 949 http-bio-8080-exec-4 181
+0:0:0:0:0:0:0:1 - - [12/May/2022:11:13:01 +0000] "GET /departement HTTP/1.1" 404 949 http-bio-8080-exec-7 57
+0:0:0:0:0:0:0:1 - - [12/May/2022:11:13:31 +0000] "GET /departement/list HTTP/1.1" 200 403 http-bio-8080-exec-10 10884
+0:0:0:0:0:0:0:1 - - [12/May/2022:11:14:21 +0000] "GET /departement/list HTTP/1.1" 200 365 http-bio-8080-exec-3 7129
+0:0:0:0:0:0:0:1 - - [12/May/2022:11:14:51 +0000] "GET /departement/list HTTP/1.1" 200 412 http-bio-8080-exec-7 1196
+0:0:0:0:0:0:0:1 - - [12/May/2022:11:15:03 +0000] "GET /departement/list HTTP/1.1" 200 412 http-bio-8080-exec-9 51
+0:0:0:0:0:0:0:1 - - [12/May/2022:11:15:23 +0000] "GET /departement/list HTTP/1.1" 200 376 http-bio-8080-exec-1 604

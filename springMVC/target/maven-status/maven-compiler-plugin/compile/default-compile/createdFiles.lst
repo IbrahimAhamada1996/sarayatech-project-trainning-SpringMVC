@@ -1,0 +1,5 @@
+com\saraya\controller\HomeController.class
+com\saraya\models\Departement.class
+com\saraya\services\DepartementService.class
+com\saraya\models\Manager.class
+com\saraya\controller\DepartementController.class

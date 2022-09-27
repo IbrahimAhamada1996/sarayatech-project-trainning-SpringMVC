@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/bootstrap-4.0.0-dist/css/bootstrap.css}" >
+</head>
+<body>
+
+        <h1>Update person</h1>
+        <hr>
+    <div class="container">
+        <div class="card ">
+            <h5 class="card-header bg-success">Update person</h5>
+            <div class="card-body">
+                <form th:action="@{/update/{id} (id=${person.id})}" method="post">
+                    <div class="col">
+                        <label>ID</label>
+                        <input type="text" name="id" class="form-control" readonly th:field="*{person.id}" >
+                    </div>
+                    <div class="col">
+                        <label>Firstname</label>
+                        <input type="text" class="form-control" required th:field="*{person.firstname}">
+                    </div>
+                    <div class="col">
+                        <label>Lastname</label>
+                        <input type="text" class="form-control" required th:field="*{person.lastname}">
+                    </div>
+                    <div class="row mt-2">
+                        <div class="col text-center">
+                            <button type="submit" class="btn btn-success">update</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
